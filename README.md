@@ -9,6 +9,7 @@ The `PollingTimer` is a simple timer library designed for Arduino and ESP32. Thi
 - **Loop and One-shot Timers**: Choose between repeating or single execution.
 - **Debug Support**: Detailed log output is possible in debug mode.
 
+
 ## How to Use
 1. **Include the Library**:
    ```cpp
