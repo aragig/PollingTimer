@@ -7,9 +7,10 @@
 
 下記動画のように、擬似的なマルチスレッドが実現できます。
 
-<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/0vzSfgHvaY4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+[![Pseudo-multithreading-like LED blinking with PollingTimer on Arduino](docs/eyecatch-youtube.png)](https://youtu.be/0vzSfgHvaY4)
 
-また、マルチスレッドでは変数を`volatile`や`Mutex`などで管理しなければならず面倒です。非ブロッキンな工夫をすればシングルスレッドで十分、というのが私の経験上の感想です。
+
+マルチスレッドでは変数を`volatile`や`Mutex`などで管理しなければならず面倒です。非ブロッキンな工夫をすればシングルスレッドで十分、というのが私の経験上の感想です。
 
 
 ## 説明
@@ -130,7 +131,6 @@ The `PollingTimer` is a simple timer library designed for Arduino and ESP32. Thi
 
 ## Example
 
-[![Pseudo-multithreading-like LED blinking with PollingTimer on Arduino](docs/eyecatch-youtube.png)](https://youtu.be/0vzSfgHvaY4)
 
 Here's a simple example of blinking an LED:
 ```cpp
